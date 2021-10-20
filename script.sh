@@ -6,7 +6,7 @@ apt install dropbear wget
 # Banner location is /etc/banner
 echo "Configuring Dropbear"
 touch /etc/banner
-wget https://raw.githubusercontent.com/HaloDragon7410/ws-gaming-script/master/dropbear -O /etc/default/
+wget https://raw.githubusercontent.com/HaloDragon7410/ws-gaming-script/master/dropbear -O /etc/default/dropbear
 systemctl enable dropbear
 systemctl start dropbear
 
