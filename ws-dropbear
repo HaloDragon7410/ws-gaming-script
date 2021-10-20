@@ -8,7 +8,7 @@ PASS = ''
 # CONST
 BUFLEN = 4096 * 4
 TIMEOUT = 60
-DEFAULT_HOST = "127.0.0.1:443"
+DEFAULT_HOST = "127.0.0.1:442"
 # RESPONSE = 'HTTP/1.1 101 Switching Protocols\r\n\r\n'
 RESPONSE = 'HTTP/1.1 101 I\'m gonna <b><font color="white">SCREEEEEEAAAAAAAAAAAAAM</font></b> \r\n\r\n'
 
