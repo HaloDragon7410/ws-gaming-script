@@ -1,9 +1,9 @@
 apt install stunnel4
 
-cp ./stunnel4 /etc/stunnel/stunnel4
-cp ./stunnel.conf /etc/stunnel/stunnel.conf
+wget https://raw.githubusercontent.com/HaloDragon7410/ws-gaming-script/master/stunnel4 -O /etc/stunnel/stunnel4
+wget https://raw.githubusercontent.com/HaloDragon7410/ws-gaming-script/master/stunnel.conf -O /etc/stunnel/stunnel.conf
 
-systemctl enable stunnel
-systemctl start stunnel
+systemctl enable stunnel4
+systemctl start stunnel4
 stunnel
 echo "Done"
